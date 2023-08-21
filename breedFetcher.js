@@ -12,7 +12,7 @@ const fetchBreed = function(breed, callback) {
       console.log(typeof data);
       const breedData = data[0];
       if (breedData) {
-        callback(null, breed.description);
+        callback(null, breedData.description);
       }
       callback(`${breed} information is not not available`, null);
     }
