@@ -19,3 +19,4 @@ const fetchBreed = function(breed, callback) {
   });
 };
 
+module.exports = fetchBreed;
